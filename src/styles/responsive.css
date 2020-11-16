@@ -1,0 +1,200 @@
+/* responsive breakpoint */
+/* tablet */
+@media screen and (min-width: 768px) {
+
+    #list .card {
+        width: 400px;
+    }
+    #list .card:hover {
+        transform: scale(1.14);
+    } 
+    .header {
+        min-height: 450px;
+        background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("/images/heros/hero-image_2.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .detail .head{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    .detail .head img {
+        width: 50%;
+    }
+    .detail .head table {
+        width: auto;
+        margin: auto;
+        margin-left: 50px;
+        max-width: 400px;
+    }
+    .list {
+        width: 40%;
+    }
+    .form {
+        padding: 0 30px;
+    }
+    .desc {
+        box-sizing: border-box;
+        padding: 0 50px;
+    }
+    .card-fav {
+        max-width: 40%;
+    }
+    
+}
+/* desktop */
+@media screen and (min-width: 1020px){
+    .header {
+        background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("/images/heros/hero-image_2-large.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    nav ul {
+        height: 40%;
+        width: 40%;
+        position: relative;
+        justify-content: space-around;
+        display: flex;
+    }
+    nav ul li {
+        display: inline-block;
+        margin: unset;
+    }
+    #list .card {
+        width: 380px;    
+    }
+     #list .card:hover {
+        transform: scale(1.14);
+    } 
+    .detail .head img {
+        width: 48%;
+    }
+    .detail .head table {
+        margin-left: 50px;
+        width: 420px;
+    }
+
+    .desc {
+        padding: 30px;
+    }
+    .desc p {
+        font-size: 1.2em;
+    }
+    .card-fav {
+        max-width: 28%;
+    }
+
+}
+@media screen and (min-width: 600px) {
+    nav ul {
+        height: 40%;
+        width: 55%;
+        position: relative;
+        justify-content: space-around;
+        display: flex;
+    }
+    nav ul li {
+        display: inline-block;
+        margin: unset;
+    }
+}
+/* ukuran mobile */
+@media screen and (max-width: 600px) {
+    .menu-toggle {
+        display: flex;
+    }
+    nav ul {
+        position: fixed;
+        right: 0;   
+        top: 0;
+        width: 70%;
+        height: 100%;
+        justify-content: space-evenly; 
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(29, 29, 29, 0.952);
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    nav ul.slide {
+        opacity: 1;
+        transform: unset;
+    }
+    .btn {
+        width: 110px;
+        height: 55px;
+    }
+    #list .card {
+        width: 320px;
+    }
+    #list .btn:hover {
+        transform: scale(1.1);
+    }
+    #list .card-picture {
+        height: 220px;
+    }
+    .review-user .card-testi {
+        max-width: 400px;
+    }
+    .card2 {
+        max-height: 700px;
+        max-width: 400px;
+    }
+    
+    footer {
+        font-size: 1.0em;
+    }
+    .detail .head {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .detail .head img {
+        width: 65%;
+        margin-bottom: 25px;
+    }
+    .detail .head .table {
+        max-width: 400px;
+    }
+    .card-desc {
+        padding: 0 25px;
+        top: 95px;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        margin-bottom: 10px;
+        color: #00004d;
+       
+    }
+    .review-user .card {
+        width: 80%;
+    }
+    .review-user .card .card-main img{
+        width: 70%;
+    }
+
+    .desc {
+        margin: 15px 15px;
+    }
+    .card-fav {
+        max-width: 85%;
+    }
+
+    .card-picture2 img {
+        width: 100%;
+    }
+    .card-picture2 {
+        margin: 0 auto;
+        max-height: 150px; 
+        overflow: hidden;
+    }
+    .header {
+        height: 450px;
+    }
+}

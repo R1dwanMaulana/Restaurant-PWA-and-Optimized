@@ -1,0 +1,29 @@
+Kriteria Utama
+1. Menerapkan integration test untuk fungsi menyukai dan batal menyukai restoran. ✅
+2. Menerapkan End to End Test dengan skenario:
+   - Menyukai restoran. ✅ 
+   - Batal menyukai restoran. ✅
+3. Melakukan kompresi terhadap gambar hero yang digunakan. Ukuran gambar 
+   harus di bawah 200kb. ✅ 
+4. Menerapkan teknik image responsive pada gambar hero. Gambar pada layar seluler 
+   dan desktop harus berbeda. ✅ 
+5. Menerapkan teknik lazy loading pada gambar daftar restoran yang ditampilkan. ✅ 
+6. Memasang bundle analyzer pada proyek submission. ✅ 
+7. Gunakan teknik Code Splitting untuk memisahkan vendor code dari kode asli 
+   yang Anda tuliskan. ✅ 
+8. Pertahankan syarat yang ada pada submission sebelumnya. Seperti penerapan PWA, 
+   responsibilitas tampilan, dan aksesibilitas pada website. ✅ 
+
+Saran submission1. 
+1. Menuliskan test case secara lengkap, mulai dari kasus positif hingga kasus negatif. ✅ 
+2. Menerapkan End to End test pada skenario lain di luar yang sudah ditentukan. ✅ 
+3. Menerapkan optimasi lain di luar dari optimasi yang menjadi persyaratan. ✅ 
+4. Memperhatikan matrik Web Vitals dengan nilai:
+   *desktop
+   - FCP < 2.5 detik ✅ 
+   - FID/TBT < 100 ms ✅ 
+   - CLS < 0.1 ( tidak stabil [0,161])
+   *mobile
+   - FCP < 2.5 detik ✅ 
+   - FID/TBT < 100 ms ✅ 
+   - CLS < 0.1 ( tidak stabil [0,175])

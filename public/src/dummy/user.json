@@ -1,0 +1,28 @@
+{
+    "users" : [
+        {
+            "name": "David",
+            "profile": "./images/users/david.jpg",
+            "desc": "web ini keren banget dan tampilannya bagus",
+            "statusJob": "Programmer"
+        },
+        {
+            "name": "Synta",
+            "profile": "./images/users/synta.jpg",
+            "desc": "tidak sia sia cari restoran disini",
+            "statusJob": "Desainer UI UX"
+        },
+        {
+            "name": "stevan",
+            "profile": "./images/users/stevan.jpg",
+            "desc": "web ini harus di kembangkan lagi, dengan fitur-fitur yang dapat memudahkan pengguna",
+            "statusJob": "Pelajar"
+        },
+        {
+            "name": "Amelia",
+            "profile": "./images/users/amelia.jpg",
+            "desc": "suka dengan tampilannya yg penuh animasi",
+            "statusJob": "Mahasiswa"
+        }            
+    ]
+}
